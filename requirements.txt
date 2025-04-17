@@ -1,0 +1,21 @@
+streamlit
+python-dotenv
+google-generativeai
+langchain
+langchain-google-genai
+qdrant-client>=1.7.0 # Use a recent version
+langchain-qdrant # Specific integration package
+requests
+arxiv
+PyPDF2 # Still potentially useful for basic checks, keep if needed, else remove
+fuzzywuzzy
+python-Levenshtein # Required by fuzzywuzzy
+Pillow
+protobuf~=3.20.0 # Often helps with dependency conflicts
+pymupdf # For fitz
+unstructured[pdf]>=0.12.0 # Use a recent version, includes pdf extras
+# unstructured-inference # Might be needed by unstructured depending on version/setup
+# faiss-cpu # Remove (or faiss-gpu)
+# langchain-community # Remove if only used for FAISS/Chroma
+# langchain-chroma # Remove
+tqdm # For progress bars
