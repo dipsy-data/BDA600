@@ -3,19 +3,18 @@ python-dotenv
 google-generativeai
 langchain
 langchain-google-genai
-qdrant-client>=1.7.0 # Use a recent version
-langchain-qdrant # Specific integration package
+langchain-openai
+asyncio-throttle
+nest_asyncio 
+qdrant-client>=1.7.0 
+langchain-qdrant
 requests
 arxiv
-PyPDF2 # Still potentially useful for basic checks, keep if needed, else remove
+PyPDF2
 fuzzywuzzy
-python-Levenshtein # Required by fuzzywuzzy
+python-Levenshtein
 Pillow
-protobuf~=3.20.0 # Often helps with dependency conflicts
+protobuf~=3.20.0 
 pymupdf # For fitz
-unstructured[pdf]>=0.12.0 # Use a recent version, includes pdf extras
-# unstructured-inference # Might be needed by unstructured depending on version/setup
-# faiss-cpu # Remove (or faiss-gpu)
-# langchain-community # Remove if only used for FAISS/Chroma
-# langchain-chroma # Remove
-tqdm # For progress bars
+unstructured[pdf]>=0.12.0 
+tqdm
